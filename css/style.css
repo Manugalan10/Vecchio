@@ -1,0 +1,868 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*CONTENEDORES*/
+/*MOVIL*/
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 20px 244px 45px 275px 40px 40px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "img1"
+    "excluc"
+    "img2"
+    "tiendac"
+    "footer"
+    ;
+}
+.contenedore {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 20px 230px 255px 90px 40px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "imgexclu"
+    "titue"
+    "exclucc"
+    "footer" 
+    ;
+}    
+.contenedort {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 20px 1500px 40px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "gridp"
+    "footer" 
+    ;
+}
+.contenedorc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 20px 27rem 350px 40px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "nombres"
+    "maps"
+    "footer"
+;
+}
+
+.contenedorca {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 20px 569px 40px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "carrito"
+    "footer" 
+    ;
+}
+
+/*TODO*/
+
+body {
+    background-color: black;
+    font-family: 'Brygada 1918', serif;
+}
+a:hover {
+    text-shadow:0 0.01rem 0.2rem white;
+}
+header {
+    background-color: black;
+    grid-area: header;
+    display: block;
+}
+.img1 {
+    background-color: black;
+    grid-area: img1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ve {
+    width: auto;
+    height: 230px;  
+}
+.img2 {
+    background-color: black;
+    grid-area: img2;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.vi {
+    width: auto;
+    height: 255px;  
+}
+.excluc {
+    background-color: black;
+    grid-area: excluc;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.exclu1 {
+    color: white;
+    border: 3px white outset;
+    border-style: solid;
+    padding: 8px;
+    margin-bottom: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.tiendac {
+    background-color: black;
+    grid-area: tiendac;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tienda1 {
+    color: white;
+    border: 3px white outset;
+    border-style: solid;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgb(5, 5, 5);
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 45px;  
+}
+nav {
+    background-color: black;
+    grid-area: nav;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nave {
+    display: grid;
+    grid-template-columns: 50px 81px 55px 71px 48px;
+    grid-template-rows: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+.foot {
+    color: white;
+    text-align: center;
+}
+.titue {
+    background-color: black;
+    grid-area: titue;
+}
+.exclucc {
+    background-color: black;
+    grid-area: exclucc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgexclu {
+    background-color: black;
+    grid-area: imgexclu;
+}
+.imgve {
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    height: 230px;
+    
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.gridPadre {
+    background-color: black;
+    grid-area: gridp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.re {
+    color: white;
+    text-align: center;
+}
+.ra {
+    color: white;
+    text-align: center;
+
+}
+.item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.lo {
+    margin-top: 20px;
+    text-align: center;
+}
+.im {
+    border: 3px rgb(20, 20, 20) solid;
+    width: auto;
+    height: 230px;
+}
+.con{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+label {
+    color: white;
+}
+.nombres {
+    background-color: black;
+    grid-area: nombres;
+    text-align: center;
+}
+.maps {
+    background-color: black;
+    grid-area: maps;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map222 {
+    width: auto;
+    height: 255px;
+}
+.carrito {
+    background-color: black;
+    grid-area: carrito;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: auto;
+    height: 255px;
+}
+p {
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*CONTENEDORES*/
+/*TABLET*/
+
+@media screen and (min-width:700px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 25px 375px 70px 430px 60px 50px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "img1"
+        "excluc"
+        "img2"
+        "tiendac"
+        "footer"
+        ;
+    }
+    .contenedore {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 25px 230px 160px 90px 50px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "imgexclu"
+        "titue"
+        "exclucc"
+        "footer" 
+        ;
+    }    
+    .contenedort {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 25px 800px 50px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "gridp"
+        "footer" 
+        ;
+    }
+    .contenedorc {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 25px 27rem 350px 50px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "nombres"
+        "maps"
+        "footer"
+    ;
+    }
+    
+    .contenedorca {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 25px 569px 50px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "carrito"
+        "footer" 
+        ;
+    }
+    
+    /*TODO*/
+    
+    body {
+        background-color: black;
+        font-family: 'Brygada 1918', serif;
+    }
+    a:hover {
+        text-shadow:0 0.01rem 0.2rem white;
+    }
+    header {
+        background-color: black;
+        grid-area: header;
+        display: block;
+    }
+    .img1 {
+        background-color: black;
+        grid-area: img1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ve {
+        width: auto;
+        height: 350px;  
+    }
+    .img2 {
+        background-color: black;
+        grid-area: img2;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vi {
+        width: auto;
+        height: 390px;  
+    }
+    .excluc {
+        background-color: black;
+        grid-area: excluc;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .exclu1 {
+        color: white;
+        border: 3px white outset;
+        border-style: solid;
+        padding: 8px;
+        margin-bottom: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .tiendac {
+        background-color: black;
+        grid-area: tiendac;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tienda1 {
+        color: white;
+        border: 3px white outset;
+        border-style: solid;
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+    footer {
+        background-color: rgb(5, 5, 5);
+        grid-area: footer;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 60px; 
+    }
+    nav {
+        background-color: black;
+        grid-area: nav;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nave {
+        display: grid;
+        grid-template-columns: 70px 120px 80px 102px 70px;
+        grid-template-rows: auto;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .foot {
+        color: white;
+        text-align: center;
+    }
+    .titue {
+        background-color: black;
+        grid-area: titue;
+    }
+    .exclucc {
+        background-color: black;
+        grid-area: exclucc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgexclu {
+        background-color: black;
+        grid-area: imgexclu;
+    }
+    .imgve {
+        display: block;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+        height: 230px;
+        
+    }
+    h1 {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+    h2 {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .text1 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .gridPadre {
+        background-color: black;
+        grid-area: gridp;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .re {
+        color: white;
+        text-align: center;
+    }
+    .ra {
+        color: white;
+        text-align: center;
+    
+    }
+    .item {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .lo {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .im {
+        border: 3px rgb(20, 20, 20) solid;
+        width: auto;
+        height: 230px;
+    }
+    .con{
+        color: white;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    label {
+        color: white;
+    }
+    .nombres {
+        background-color: black;
+        grid-area: nombres;
+        text-align: center;
+    }
+    .maps {
+        background-color: black;
+        grid-area: maps;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map222 {
+        width: auto;
+        height: 255px;
+    }
+    .carrito {
+        background-color: black;
+        grid-area: carrito;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+        height: 255px;
+    }
+    p {
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTENEDORES*/
+/*PC*/
+
+@media screen and (min-width:1200px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70px 35px 440px 90px 60px;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "img1 img2"
+        "excluc tiendac"
+        "footer footer"
+        ;
+    }
+    .contenedore {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70px 35px 380px 180px 60px;
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "imgexclu titue"
+        "exclucc exclucc"
+        "footer footer" 
+        ;
+    }    
+    .contenedort {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 35px 520px 60px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "gridp"
+        "footer" 
+        ;
+    }
+    .contenedorc {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 35px 27rem 350px 60px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "nombres"
+        "maps"
+        "footer"
+    ;
+    }
+    
+    .contenedorca {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 35px 569px 60px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "carrito"
+        "footer" 
+        ;
+    }
+    
+    /*TODO*/
+    
+    body {
+        background-color: black;
+        font-family: 'Brygada 1918', serif;
+    }
+    a:hover {
+        text-shadow:0 0.01rem 0.2rem white;
+    }
+    header {
+        background-color: black;
+        grid-area: header;
+        display: block;
+    }
+    .img1 {
+        background-color: black;
+        grid-area: img1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ve {
+        width: auto;
+        height: 410px;  
+    }
+    .img2 {
+        background-color: black;
+        grid-area: img2;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vi {
+        width: auto;
+        height: 410px;  
+    }
+    .excluc {
+        background-color: black;
+        grid-area: excluc;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .exclu1 {
+        color: white;
+        border: 3px white outset;
+        border-style: solid;
+        padding: 8px;
+        margin-bottom: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .tiendac {
+        background-color: black;
+        grid-area: tiendac;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tienda1 {
+        color: white;
+        border: 3px white outset;
+        border-style: solid;
+        padding: 8px;
+        margin-bottom: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        
+
+    }
+    footer {
+        background-color: rgb(5, 5, 5);
+        grid-area: footer;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 70px; 
+    }
+    nav {
+        background-color: black;
+        grid-area: nav;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nave {
+        display: grid;
+        grid-template-columns: 100px 165px 115px 147px 90px;
+        grid-template-rows: auto;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .foot {
+        color: white;
+        text-align: center;
+    }
+    .titue {
+        background-color: black;
+        grid-area: titue;
+    }
+    .exclucc {
+        background-color: black;
+        grid-area: exclucc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgexclu {
+        background-color: black;
+        grid-area: imgexclu;
+    }
+    .imgve {
+        display: block;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+        height: 380px;
+        
+    }
+    h1 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+    h2 {
+        color: white;
+        font-size: 35px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .text1 {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+    .gridPadre {
+        background-color: black;
+        grid-area: gridp;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .re {
+        color: white;
+        text-align: center;
+    }
+    .ra {
+        color: white;
+        text-align: center;
+    
+    }
+    .item {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .lo {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .im {
+        border: 3px rgb(20, 20, 20) solid;
+        width: auto;
+        height: 230px;
+    }
+    .con{
+        color: white;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    label {
+        color: white;
+    }
+    .nombres {
+        background-color: black;
+        grid-area: nombres;
+        text-align: center;
+    }
+    .maps {
+        background-color: black;
+        grid-area: maps;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map222 {
+        width: auto;
+        height: 255px;
+    }
+    .carrito {
+        background-color: black;
+        grid-area: carrito;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        width: auto;
+        height: 255px;
+    }
+    p {
+        font-size: 11px;
+    }
+}
+    
