@@ -10,7 +10,7 @@
 .contenedor{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 45px 20px 244px 45px 275px 90px 40px;
+    grid-template-rows: 45px 30px 244px 45px 275px 90px 40px;
     grid-template-areas: 
     "header"
     "nav"
